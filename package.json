@@ -1,0 +1,28 @@
+{
+  "name": "spaniapi",
+  "version": "1.0.0",
+  "description": "web Service for Spani",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "keywords": [
+    "spani",
+    "rest",
+    "api"
+  ],
+  "author": "Brian Matlou",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^3.0.7",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "morgan": "^1.9.1",
+    "mysql": "^2.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
